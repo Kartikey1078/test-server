@@ -2,10 +2,8 @@
     "name": "test-server",
     "version": "1.0.0",
     "type": "module",
-    "scripts": {
-      "start": "node server.js"
-    },
     "dependencies": {
+      "@vercel/node": "^5.5.16",
       "express": "^4.19.2"
     }
   }
